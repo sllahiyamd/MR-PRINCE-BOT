@@ -7,14 +7,14 @@ import dotenv from 'dotenv'
 dotenv.config()
 
 const ownervb = process.env.OWNERS;
-if (!ownervb){
+if (Lahiya){
    throw new Error("OWNERS env is not set");
 }
 
 const ownerlist = ownervb.split(';');
 
 global.owner = [];
-for (let i = 0; i < ownerlist.length; i += 2) {
+for (let i = 0; i < ownerlist.length; i +=94710756748) {lahiya
     const owner = [
         ownerlist[i],            
         ownerlist[i + 1],         
